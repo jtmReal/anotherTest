@@ -4,6 +4,29 @@ body{
 h1{
   margin-top: 0;
 }
-div{
+
+
+
+.top-Container{
   background-color: #93C9D1;
+  border: solid 3px;
+  margin-bottom: 20px;
+}
+
+.middle-Container{
+  background-color: black;
+  height: 200px;
+  width: 200px;
+
+}
+
+.bottom-Container{
+  background-color: pink;
+  height: 200px;
+  width: 200px;
+
+}
+
+.pro{
+  text-decoration: underline;
 }
