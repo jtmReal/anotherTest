@@ -1,16 +1,19 @@
 body{
+  text-align: center;
   margin: 0;
 }
 h1{
   margin-top: 0;
+  bottom: 200px;
 }
 
 
 
 .top-Container{
   background-color: #93C9D1;
-  border: solid 3px;
   margin-bottom: 20px;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-Container{
@@ -29,4 +32,21 @@ h1{
 
 .pro{
   text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountain{
+  position: relative;
+  top: 3px;
 }
